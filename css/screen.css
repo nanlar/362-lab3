@@ -202,9 +202,54 @@ label {
   display: block;
 }
 
+/* Nilufer Anlar, Lab3 work is included below here 
+   I used Minor 3rd, 120% in the Math calculations below */
+
+/* setup "font-family" with a robust font stack, 3 fonts deep, below */
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25em;  /* (20px/16px=1.25em) */
+  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
+}
+
+body {
+  font-size: 1.25em;  /* (20px/16px=1.25em) */
+  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
+  }
+
+p {
+  padding-bottom: 1.2em;  /* (24px/20px=1.2em) */
+}
+
+h1 {
+  font-size: 2.5em;  /* (50px/20px=2.5em) */
+}
+
 /* ===== LAYOUT STYLES ====== */
 
+
+
+
+
 /* ===== MODULAR STYLES ===== */
+
+/* My two media queries */
+
+/* for tablets */
+@media screen and (min-width: 480px) {
+  label {
+    color: green;
+    background-color: Gainsboro; 
+  }
+} 
+
+/* for desktops and wide screens */
+@media screen and (min-width: 480px) {
+  label {
+    color: red;
+    background-color: WhiteSmoke; 
+  }
+} 
 
 /* ===== STATE STYLES ======= */
 
