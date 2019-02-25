@@ -236,17 +236,24 @@ ol {
 input {
   display: inline-block;
   margin-bottom: 1em;
+  padding-left: 0.2em; /* some space before typing in */
 }
 
 #email {
   background-color: Gainsboro;
 }
 
-input[type=checkbox] {
+[type=checkbox] {
   float: left;
-  position: relative;
-  width: auto;
+}
+
+label[for age-verification] {
   display: inline;
+}
+
+#age-verification {
+  display: inline;
+  width: auto;
 }
 
 #submit {
@@ -256,10 +263,6 @@ input[type=checkbox] {
   background-color: Gray;
   font-size: 700;
   color: white;
-}
-
-#age-verification {
-  display: inline;
 }
 
 /* ===== MODULAR STYLES ===== */
