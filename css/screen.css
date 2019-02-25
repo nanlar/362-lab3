@@ -227,7 +227,11 @@ h1 {
 
 
 ol {
-  background-color: LightGray;
+  background-color: Silver;
+}
+
+input {
+  display: inline-block;
 }
 
 #submit {
