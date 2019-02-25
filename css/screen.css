@@ -209,7 +209,7 @@ label {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em;  /* (20px/16px=1.25em) */
-  line-height: 1.2em;  /* (1.2X20=24px) */  
+  line-height: 1em;  /* (16px */  
   background-color: LightGray; 
 }
 
@@ -219,12 +219,10 @@ p {
 
 h1 {
   font-size: 1.5em;  /* (24px/16px=1.5em) */
-  line-height: 1.2em;  /*  */
+  line-height: 1.2em;  /* 24px/20px */
 }
 
-
 /* ===== LAYOUT STYLES ====== */
-
 
 ol {
   background-color: Silver;
@@ -232,6 +230,11 @@ ol {
 
 input {
   display: inline-block;
+  margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+  display: inline;
 }
 
 #submit {
@@ -243,20 +246,23 @@ input {
   color: white;
 }
 
+#age-verification {
+  display: inline;
+}
+
 /* ===== MODULAR STYLES ===== */
 
-/* My two media queries */
+/* My two media queries are listed below */
 
-/* for tablets
-   had to include orientation to make it work on iPad landscape mode too */
-@media screen and (min-width: 480px) and (orientation: portrait) {  
+/* for tablets */
+@media screen and (min-width: 480px) {  
   h1 {
     font-size: 2em;  /* (40px/20px=2em) */
     line-height: 1.625;  /* 26px/16px=1.625em */
   }
   
   #submit {
-    color: blue;
+    color: white;
     background-color: LightGray;
   }
 } 
@@ -264,7 +270,7 @@ input {
 /* for desktops and wide screens */
 @media screen and (min-width: 992px) {
   #submit {
-    color: red;
+    color: white;
     background-color: WhiteSmoke; 
   }
 } 
