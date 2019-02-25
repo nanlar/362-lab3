@@ -205,27 +205,32 @@ label {
 /* Nilufer Anlar, Lab3 work is included below here 
    I used Minor 3rd, 120% in the Math calculations below */
 
-/* setup "font-family" with a robust font stack, 3 fonts deep, below */
+/* setup "font-family" of Sans-Serif */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25em;  /* (20px/16px=1.25em) */
-  line-height: 1em;  /* (16px */  
-  background-color: LightGray; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: LightGray;
 }
 
-p {
-  padding-bottom: 1.2em;  /* (24px/20px=1.2em) */
-}
+  /*font-size: 1.25em;  (20px/16px=1.25em) */
+  /* line-height: 1em;  (16px */  
+
+/* ===== LAYOUT STYLES ====== */
 
 h1 {
   font-size: 1.5em;  /* (24px/16px=1.5em) */
   line-height: 1.2em;  /* 24px/20px */
 }
 
-/* ===== LAYOUT STYLES ====== */
+p {
+  font-size: 1em;
+  line-height: 1.2em; /* 120% */
+  padding-bottom: 1.2em;  /* (24px/20px=1.2em) */
+}
 
 ol {
   background-color: Silver;
+  margin-top: 0.5em;
+  padding: 0.6em;
 }
 
 input {
@@ -233,14 +238,21 @@ input {
   margin-bottom: 1em;
 }
 
+#email {
+  background-color: Gainsboro;
+}
+
 input[type=checkbox] {
+  float: left;
+  position: relative;
+  width: auto;
   display: inline;
 }
 
 #submit {
   width: 100%;
   padding-top: 0.5em;  /* 10px/20px=0.5em */
-  padding-bottom: 0.5em;  /* 10px/20px=0.5em */
+  padding-bottom: 0.6em;  /* 10px/20px=0.5em */
   background-color: DarkGray;
   font-size: 700;
   color: white;
