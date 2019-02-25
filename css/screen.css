@@ -206,15 +206,11 @@ label {
    I used Minor 3rd, 120% in the Math calculations below */
 
 /* setup "font-family" with a robust font stack, 3 fonts deep, below */
-html {
+body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em;  /* (20px/16px=1.25em) */
-  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
-}
-
-body {
-  font-size: 1.25em;  /* (20px/16px=1.25em) */
-  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
+  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */  
+  background-color: LightGray; 
   }
 
 p {
@@ -222,31 +218,37 @@ p {
 }
 
 h1 {
-  font-size: 2.5em;  /* (50px/20px=2.5em) */
+  font-size: 2em;  /* (40px/20px=2em) */
 }
 
 /* ===== LAYOUT STYLES ====== */
 
 
-
-
+#submit {
+  width: 100%;
+  padding-top: 0.5em;  /* 10px/20px=0.5em */
+  padding-bottom: 0.5em;  /* 10px/20px=0.5em */
+  background-color: DarkGray;
+  font-size: 700;
+  color: white;
+}
 
 /* ===== MODULAR STYLES ===== */
 
 /* My two media queries */
 
 /* for tablets */
-@media screen and (min-width: 480px) {
-  label {
-    color: green;
-    background-color: Gainsboro; 
+@media screen and (min-width: 768px) {  
+  submit {
+    color: white;
+    background-color: LightGray;
   }
 } 
 
 /* for desktops and wide screens */
-@media screen and (min-width: 480px) {
-  label {
-    color: red;
+@media screen and (min-width: 992px) {
+  submit {
+    color: gray;
     background-color: WhiteSmoke; 
   }
 } 
