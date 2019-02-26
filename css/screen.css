@@ -229,8 +229,9 @@ p {
 
 ol {
   background-color: Silver;
-  margin-top: 0.5em;
-  padding: 0.6em;
+  margin-top: 0.5em;  
+  padding: 0.5em;
+  padding-bottom: 0;
 }
 
 input {
@@ -247,21 +248,31 @@ input {
   float: left;
 }
 
+#input-age-verification {
+  padding-bottom: 1em;
+}
+
 label[for age-verification] {
-  display: inline;
+  padding-left: 1em;
 }
 
 #age-verification {
   display: inline;
   width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0.6em;
+  width: 1.364em;
+  height: 1.664em;
 }
 
 #submit {
   width: 100%;
+  margin-top: 0.5em;
   padding-top: 0.5em;  /* 10px/20px=0.5em */
-  padding-bottom: 0.6em;  /* 10px/20px=0.5em */
+  padding-bottom: 0.5em;  /* 10px/20px=0.5em */
   background-color: Gray;
-  font-size: 700;
   color: white;
 }
 
