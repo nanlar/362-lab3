@@ -230,8 +230,10 @@ p {
 ol {
   background-color: Silver;
   margin-top: 0.5em;  
-  padding: 0.5em;
+  padding-top: 0.5em;
   padding-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 input {
@@ -272,7 +274,7 @@ label[for age-verification] {
   margin-top: 0.5em;
   padding-top: 0.5em;  /* 10px/20px=0.5em */
   padding-bottom: 0.5em;  /* 10px/20px=0.5em */
-  background-color: Gray;
+  background-color: #606060;
   color: white;
 }
 
@@ -287,17 +289,27 @@ label[for age-verification] {
     line-height: 1.625;  /* 26px/16px=1.625em */
   }
   
+  #input-submit {
+    text-align: center;
+  }
+  
   #submit {
+    width: 50%;
     color: white;
-    background-color: #505050;
+    background-color: Gray;
   }
 } 
 
 /* for desktops and wide screens */
 @media screen and (min-width: 992px) {
+  #input-submit {
+    text-align: center;
+  }
+  
   #submit {
+    width: 30%;
     color: white;
-    background-color: #606060; 
+    background-color: #505050; 
   }
 } 
 
