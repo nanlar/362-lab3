@@ -253,6 +253,7 @@ input {
 
 [type=checkbox] {
   float: left;
+  border-style: none;
 }
 
 #input-age-verification {
