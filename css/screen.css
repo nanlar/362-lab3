@@ -222,24 +222,24 @@ h1 {
 
 p {
   font-size: 1em;  /* 16px, (16px/16px=1em) */
-  line-height: 1.25em;  /* 120% */
-  padding-bottom: 1.25em;  /* 20px, (20px/16px=1.25em) */
+  line-height: 1.18em;  /* 120% at ~19px, (19px/16px=1.188em)*/
+  padding-bottom: 1.18em;  /* 120% at ~19px, (19px/16px=1.188em) */
 }
 
 ol {
   background-color: Silver;
-  margin-top: 0.5em;  
-  padding-top: 0.5em;
-  padding-bottom: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  margin-top: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-left: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-right: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-top: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-bottom: 0.5em;   /* 8px, (8px/16px=0.5em) */
 }
 
 input {
   border-style: none;
   display: inline-block;
-  margin-bottom: 1em;
-  padding-left: 0.2em; /* some space before typing in */
+  margin-bottom: 1em;  /* 16px/16px */
+  padding-left: 0.2em;  /* just some space before typing */
 }
 
 #input-email {
@@ -257,12 +257,12 @@ input {
 
 #input-age-verification {
   border-style: none;
-  padding-bottom: 1em;
+  padding-bottom: 1em;  /* 16px, (16px/16px=1em) */
 }
 
 label[for age-verification] {
   border-style: none;
-  padding-left: 1em;
+  padding-left: 1em;  /* 16px, (16px/16px=1em) */
 }
 
 #age-verification {
@@ -280,9 +280,10 @@ label[for age-verification] {
 #submit {
   border-style: none;
   width: 100%;
-  margin-top: 0.5em;
-  padding-top: 0.5em;  /* 10px/20px=0.5em */
-  padding-bottom: 0.5em;  /* 10px/20px=0.5em */
+  margin-top: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  margin-bottom: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-top: 0.5em;  /* 8px, (8px/16px=0.5em) */
+  padding-bottom: 0.5em;  /* 8px, (8px/16px=0.5em) */
   background-color: #606060;
   color: white;
 }
