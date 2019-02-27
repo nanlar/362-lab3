@@ -292,8 +292,9 @@ label[for age-verification] {
 
 /* My two media queries are listed below */
 
-/* for tablets */
-@media screen and (min-width: 480px) {  
+/* for tablets, I am using 640px, NOT 480px 
+   as the landscape mode of latest iPhone X (375X635)*/
+@media screen and (min-width: 640px) {  
   h1 {
     font-size: 2em;  /* 32px, (32px/16px=2em) for bigger screens */
   }
