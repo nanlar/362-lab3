@@ -217,13 +217,13 @@ body {
 
 h1 {
   font-size: 1.5em;  /* 24px, (24px/16px=1.5em) */
-  line-height: 1.2;  /* 120%, 24px/20px */
+  line-height: 1.81em;  /* 120% at ~29px, (29px/16px=1.81em) */
 }
 
 p {
-  font-size: 1em;
-  line-height: 1.2em; /* 120% */
-  padding-bottom: 1.2em;  /* (24px/20px=1.2em) */
+  font-size: 1em;  /* 16px, (16px/16px=1em) */
+  line-height: 1.25em;  /* 120% */
+  padding-bottom: 1.25em;  /* 20px, (20px/16px=1.25em) */
 }
 
 ol {
@@ -294,7 +294,7 @@ label[for age-verification] {
 /* for tablets */
 @media screen and (min-width: 480px) {  
   h1 {
-    font-size: 2em;  /* 32px, (32px/16px=2em) bigger h1 for bigger screens */
+    font-size: 2em;  /* 32px, (32px/16px=2em) for bigger screens */
   }
   
   #input-submit {
