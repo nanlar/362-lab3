@@ -273,8 +273,8 @@ label[for age-verification] {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0.25em;  /* 4px, (4px/16px=0.25em), just some space */
-  width: 1.364em;
-  height: 1.664em;
+  width: 1em;  /* 16px, (16px/16px=1em) */
+  height: 1em;  /* 16px, (16px/16px=1em) */
 }
 
 #submit {
@@ -292,8 +292,7 @@ label[for age-verification] {
 
 /* My two media queries are listed below */
 
-/* for tablets, I am using 640px, NOT 480px 
-   as the landscape mode of latest iPhone X (375X635)*/
+/* for tablets */
 @media screen and (min-width: 768px) {  
   h1 {
     font-size: 2em;  /* 32px, (32px/16px=2em) for bigger screens */
@@ -304,7 +303,7 @@ label[for age-verification] {
   }
   
   #submit {
-    width: 50%;
+    width: 90%;
     color: white;
     background-color: Gray;
   }
