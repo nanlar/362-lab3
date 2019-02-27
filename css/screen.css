@@ -202,8 +202,10 @@ label {
   display: block;
 }
 
+/* ======================================================= */
 /* Nilufer Anlar, Lab3 work is included below here 
-   I used Minor 3rd, 120% in the Math calculations below */
+   I used Minor 3rd, 120% in the Math calculations below
+   I assumed browser defult font size of 16px */
 
 /* setup "font-family" of Sans-Serif */
 body {
@@ -211,14 +213,11 @@ body {
   background-color: LightGray;
 }
 
-  /*font-size: 1.25em;  (20px/16px=1.25em) */
-  /* line-height: 1em;  (16px */  
-
 /* ===== LAYOUT STYLES ====== */
 
 h1 {
-  font-size: 1.5em;  /* (24px/16px=1.5em) */
-  line-height: 1.2em;  /* 24px/20px */
+  font-size: 1.5em;  /* 24px, (24px/16px=1.5em) */
+  line-height: 1.2;  /* 120%, 24px/20px */
 }
 
 p {
@@ -237,12 +236,18 @@ ol {
 }
 
 input {
+  border-style: none;
   display: inline-block;
   margin-bottom: 1em;
   padding-left: 0.2em; /* some space before typing in */
 }
 
+#input-email {
+  border-style: none;
+}
+
 #email {
+  border-style: none;
   background-color: Gainsboro;
 }
 
@@ -251,14 +256,17 @@ input {
 }
 
 #input-age-verification {
+  border-style: none;
   padding-bottom: 1em;
 }
 
 label[for age-verification] {
+  border-style: none;
   padding-left: 1em;
 }
 
 #age-verification {
+  border-style: none;
   display: inline;
   width: auto;
   margin-top: 0;
@@ -270,6 +278,7 @@ label[for age-verification] {
 }
 
 #submit {
+  border-style: none;
   width: 100%;
   margin-top: 0.5em;
   padding-top: 0.5em;  /* 10px/20px=0.5em */
@@ -285,8 +294,7 @@ label[for age-verification] {
 /* for tablets */
 @media screen and (min-width: 480px) {  
   h1 {
-    font-size: 2em;  /* (40px/20px=2em) */
-    line-height: 1.625;  /* 26px/16px=1.625em */
+    font-size: 2em;  /* 32px, (32px/16px=2em) bigger h1 for bigger screens */
   }
   
   #input-submit {
