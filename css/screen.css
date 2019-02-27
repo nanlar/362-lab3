@@ -262,6 +262,7 @@ input {
 }
 
 label[for=age-verification] {
+  font-size: 0.75em;  /* 12px, (12px/16px=.75em) */
   border-style: none;
   padding-left: 1em;  /* 16px, (16px/16px=1em) */
 }
