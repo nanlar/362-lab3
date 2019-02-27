@@ -203,7 +203,7 @@ label {
 }
 
 /* ======================================================= */
-/* Nilufer Anlar, Lab3 work is included below here 
+/* Nilufer Anlar, Lab3 work is included below here. 
    I used Minor 3rd, 120% in the Math calculations below
    I assumed browser defult font size of 16px */
 
@@ -260,7 +260,7 @@ input {
   padding-bottom: 1em;  /* 16px, (16px/16px=1em) */
 }
 
-label[for age-verification] {
+label[for=age-verification] {
   border-style: none;
   padding-left: 1em;  /* 16px, (16px/16px=1em) */
 }
